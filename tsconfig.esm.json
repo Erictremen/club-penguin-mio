@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ES6",
+    "lib": ["ES2021", "DOM"],
+    "types": ["node"],
+    "module": "ES6",
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": true,
+    "rootDir": "src/client",
+    "outDir": "compiled/client",
+    "paths": {
+      "@client/*": ["./src/client/*"],
+      "@common/*": ["./src/common/*"],
+      "@server/*": ["./src/server/*"],
+      "*": [
+        "./node_modules/*"
+      ]
+    }
+  },
+  "include": [
+    "src/client/views/**/*-static.ts",
+  ],
+  "exclude": [
+    "/dist/**/*",
+    "/compiled/**/*"
+  ]
+}
