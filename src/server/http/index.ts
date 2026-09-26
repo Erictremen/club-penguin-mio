@@ -22,10 +22,13 @@ export class HttpServer {
         app.use(this.fileServer.getExpressRouter());
         app.use(this.phpServer.getExpressRouter());
 
-        // Parche definitivo para servir las pantallas del juego y corregir las URLs
-        app.use(express.static(path.join(__dirname, '../../../dist/client')));
+        // SOLUCIÓN DEFINITIVA: Buscar los archivos en dist/client usando la raíz real de Render
+        const publicPath = path.join(process.cwd(), 'dist/client');
+        app.use(express.static(publicPath));
+
+        // Si entran a /es o cualquier subpágina, les entregamos el index.html principal para que funcione
         app.get('*', (req, res) => {
-            res.sendFile(path.join(__dirname, '../../../dist/client/index.html'));
+            res.sendFile(path.join(publicPath, 'index.html'));
         });
 
         await new Promise<void>((resolve, reject) => {
