@@ -23,7 +23,7 @@ export class HttpServer {
         app.use(this.phpServer.getExpressRouter());
 
         // SOLUCIÓN DEFINITIVA: Buscar los archivos en dist/client usando la raíz real de Render
-        const publicPath = path.join(process.cwd(), 'dist/client');
+        const publicPath = path.join(process.cwd(), 'compiled/client');
         app.use(express.static(publicPath));
 
         // Si entran a /es o cualquier subpágina, les entregamos el index.html principal para que funcione
