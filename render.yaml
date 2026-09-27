@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: club-penguin-backend
+    runtime: node
+    buildCommand: yarn install && yarn build-packages
+    startCommand: npx tsx src/server/main.ts
+    envVars:
+      - key: NODE_VERSION
+        value: 18.16.0
