@@ -6,7 +6,7 @@ Este proceso se ha intentado (logrado a medias), a traves de Render (Web de host
 
 Este mismo, si bien funciona, lo hace a medias, ya que tiene bugs graficos, y las subwebs no van.
 
-#SUGERENCIAS
+# SUGERENCIAS
 
 Acepto **cualquier sugerencia** que haga que funcione bien el proyecto
 
