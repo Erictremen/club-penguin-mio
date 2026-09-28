@@ -1,4 +1,20 @@
-# Waddle Forever
+#Fork Directo de Waddle Forever, aplicación de escritorio para emular el club Penguin.
+
+En este mismo se ha intentado adaptar esta app en hacerlo una versión Web completamente funcional que sea click & play.
+
+Este proceso se ha intentado (logrado a medias), a traves de Render (Web de host gratuita) , y una Base de datos Gratuita de MongoDB
+
+Este mismo, si bien funciona, lo hace a medias, ya que tiene bugs graficos, y las subwebs no van
+
+
+
+
+
+
+## README ORIGINAL DE WADDLE FOREVER
+
+
+## Waddle Forever
 
 Waddle Forever is composed of a localhost server emulator for Club Penguin and an Electron client with the server that can run the game out of the box, built with Node.js in TypeScript.
 
