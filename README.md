@@ -4,7 +4,16 @@ En este mismo se ha intentado adaptar esta app en hacerlo una versión Web compl
 
 Este proceso se ha intentado (logrado a medias), a traves de Render (Web de host gratuita) , y una Base de datos Gratuita de MongoDB
 
-Este mismo, si bien funciona, lo hace a medias, ya que tiene bugs graficos, y las subwebs no van
+Este mismo, si bien funciona, lo hace a medias, ya que tiene bugs graficos, y las subwebs no van.
+
+#SUGERENCIAS
+
+Acepto **cualquier sugerencia** que haga que funcione bien el proyecto
+
+
+# PARAMETROS RENDER (Build & Start)
+
+En proceso
 
 
 
