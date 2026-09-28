@@ -4,16 +4,18 @@ En este mismo se ha intentado adaptar esta app en hacerlo una versión Web compl
 
 Este proceso se ha intentado (logrado a medias), a traves de Render (Web de host gratuita), y una Base de datos Gratuita de MongoDB.
 
-Así mismo se usa el emulador de Ruffle integrado (para el flash player), para asegurar el click & play
+Así mismo se usa el emulador de Ruffle, integradolo dentro de la web (para el flash player), para asegurar el click & play
 
-Este mismo, si bien funciona, lo hace a medias, ya que tiene bugs graficos, y las subwebs no van.
+Este mismo, si bien funciona, lo hace a medias, ya que tiene bugs graficos (no cargan bien los css), y las subwebs no van.
 
-# SUGERENCIAS
+## SUGERENCIAS
 
-Acepto **cualquier sugerencia** que haga que funcione bien el proyecto
+Tendré en cuenta **cualquier sugerencia** que pueda hacer que funcione bien el proyecto
+
+**Abstenganse de bromas, ya que no seran aceptadas**
 
 
-# PARAMETROS RENDER (Build & Start)
+## PARAMETROS RENDER (Build & Start)
 
 En proceso
 
@@ -22,10 +24,7 @@ En proceso
 
 
 
-
-
-
-## README ORIGINAL DE WADDLE FOREVER
+# README ORIGINAL DE WADDLE FOREVER
 
 
 
