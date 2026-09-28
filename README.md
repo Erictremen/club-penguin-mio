@@ -1,4 +1,4 @@
-#Fork Directo de Waddle Forever, aplicación de escritorio para emular el club Penguin.
+# Fork Directo de Waddle Forever, aplicación de escritorio para emular el club Penguin.
 
 En este mismo se ha intentado adaptar esta app en hacerlo una versión Web completamente funcional que sea click & play.
 
@@ -11,7 +11,13 @@ Este mismo, si bien funciona, lo hace a medias, ya que tiene bugs graficos, y la
 
 
 
+
+
+
 ## README ORIGINAL DE WADDLE FOREVER
+
+
+
 
 
 ## Waddle Forever
